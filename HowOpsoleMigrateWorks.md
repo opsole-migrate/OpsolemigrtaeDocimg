@@ -174,7 +174,7 @@ The tool assumes it runs under elevated rights (SYSTEM/local admin) and can unjo
 Phase 2 and Phase 3 depend on Windows Task Scheduler jobs being created and executed at the correct time. If an EDR or security policy blocks the application or creation or execution of the tasks, the migration will stop after Phase 1 (or silently fail). It is critical that the clients allow task creation and invocation by the migration engine.
 
 ### User Profile Must Not Load Prematurely
-If any background service, auto-login agent, or folder-redirection script causes the user profile to load before Phase 2 executes, the tool will skip the profile migration step (because it detects a loaded profile). That often leads to the user complaining “my profile didn’t migrate” whereas the root cause is an environment agent loading the profile early.
+If any background service, auto-login agent, or folder-redirection script causes the user profile to load before Phase 2 executes, the tool will skip the profile migration step (because it detects a loaded profile).The root cause is an environment agent loading the profile early.
 
 ---
 
@@ -217,3 +217,4 @@ With this knowledge, administrators can:
 OpsoleMigrate is a powerful automation engine—but its success depends on a prepared environment. Understanding how it works is the first step toward a seamless, zero-touch device modernization journey.
 
 ---
+
