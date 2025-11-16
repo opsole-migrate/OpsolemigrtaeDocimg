@@ -199,11 +199,11 @@ You will register a new application in each source and destination tenant to ena
    **Home → Applications → App registrations**
 3. Click **+ New registration**
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/1.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/1.png" >
 
 4. Enter a name for the application (for example, OpsoleMigrateApp). Retain all other settings at their default values.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/2.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/2.png" >
 
 5. Click **Register**
 
@@ -213,26 +213,26 @@ From the application’s Overview page, copy and save the following:
 - Application (Client) ID  
 - Directory (Tenant) ID  
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/3.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/3.png" >
 
 ### Step 3 — Add API Permissions
 
 1. Go to **API permissions** > Click **+ Add a permission**
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/4.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/4.png" >
 
 
 2. On the Request API permissions page, select **Microsoft Graph**
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/5.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/5.png" >
 
 3. Select Application permissions
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/6.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/6.png" >
 
 4. Use the search bar to add the following permissions:
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/7.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/7.png" >
 
 | Permission | Type |
 |------------|------|
@@ -245,23 +245,23 @@ From the application’s Overview page, copy and save the following:
 | DeviceLocalCredential.Read.All | Application | 
 | DeviceLocalCredential.ReadBasic.All | Application | 
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/8.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/8.png" >
 
 
 5. Click 5.	After adding the permissions, click **Grant admin consent** for [TENANT NAME]. Click Yes at the Grant admin consent confirmation popup.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/9.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/9.png" >
 
 6. All permissions should now display a status of Granted for [TENANT NAME]
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/10.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/10.png" >
 
 ### Step 4 — Generate Client Secret
 
 1. Go to **Certificates & secrets → Client secrets**
 2. Click **+ New client secret**
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/11.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/11.png" >
 
 3. Fill in the following:
      - Description: (e.g., OpsoleSecretKey)
@@ -269,14 +269,14 @@ From the application’s Overview page, copy and save the following:
 
 4. Click **Add**
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/12.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/12.png" >
 
 ### Step 5: Save the Secret Value
 
 - Copy the Value of the new secret immediately and save it securely.
 > This is the only time the secret value will be visible. Do not navigate without saving it.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/13.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/13.png" >
 
 ---
 
@@ -289,12 +289,12 @@ Download and install the Windows Configuration Designer from the Microsoft Store
 
 > The Microsoft Store is required to be accessible on the PC designated for provisioning package creation. This process constitutes a one-time setup that is generally completed on the IT administrator’s workstation
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/14.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/14.png" >
 
 ### Step 2 — Launch Windows Configuration Designer  
 Open the Start menu and launch Windows Configuration Designer.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/15.png" width="75%">
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/15.png" >
 
 ### Step 3 — Create New Project  
 
@@ -303,7 +303,7 @@ Open the Start menu and launch Windows Configuration Designer.
    - Enter a name for your provisioning package and path.
    - Click Finish
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/16.png" width="75%">  
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/16.png" >  
 
 
 ### Step 4 — Configure Device Settings
@@ -311,12 +311,12 @@ Open the Start menu and launch Windows Configuration Designer.
 1.	Under Set up device, define a naming template for your PCs (e.g., IT-{SERIAL})
 2.	Click Next
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/17.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/17.png" > 
 
 3.	In Set up network, toggle "Connect device to a Wi-Fi network" to Off
 4.	Click Next
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/18.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/18.png" > 
 
 ### Step 4 — Enroll with Bulk Azure AD Token 
 
@@ -324,11 +324,11 @@ Open the Start menu and launch Windows Configuration Designer.
     - Choose Enroll in Azure AD under Manage organization/school accounts.
     - Toggle "Refresh AAD credentials" to Yes.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/19.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/19.png" > 
 
 2.	Click Get Bulk Token and sign in with Global Admin credentials when prompted.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/20.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/20.png" > 
 
 3.	If this is your first time using WCD:
     - You will see a permissions consent screen.
@@ -340,7 +340,7 @@ Open the Start menu and launch Windows Configuration Designer.
 4. You should see a confirmation message
 ✅ Bulk token was fetched successfully
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/22.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/22.png" > 
 
 ### Step 5 - Complete the Package
 
@@ -350,49 +350,49 @@ Open the Start menu and launch Windows Configuration Designer.
 3.	Click Create
 4.	After creation, a file path to the .ppkg file will be displayed.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/23.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/23.png" > 
 
 ### Step 6: (Optional) Remove Computer Name from Package
 If you need to retain the existing computer name after migration:
 1.	In WCD, click "Switch to advanced editor."
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/24.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/24.png" > 
 
 2.	Search for Computer name object 
 3.	On the right-hand side panel, (under Runtime settings > Identification), Select DNSComputerName
 4.	click Remove
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/26.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/26.png" > 
 
 5.	The computer name setting will now be excluded from the package.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/27.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/27.png" > 
 
 ### Step 7: Export the Final Provisioning Package
 1.	Click Export > Provisioning package.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/28.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/28.png" > 
 
 2.	Enter a file name, then click Next
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/29.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/29.png" > 
 
 3.	Leave security settings as default, click Next
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/30.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/30.png" > 
 
 4.	Choose the destination folder, then click Next
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/31.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/31.png" > 
 
 5.	Click Build
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/32.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/32.png" > 
 
 You will see a confirmation message:
 - ✅ Provisioning package has been successfully saved and the location.
 
-<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/33.png" width="75%"> 
+<img src= "https://raw.githubusercontent.com/sreekumarpg/OpsolemigrtaeDoc/refs/heads/main/33.png" > 
 ---
 
 ## 2.2.3 Active Directory Device Disjoin Account Preparation
